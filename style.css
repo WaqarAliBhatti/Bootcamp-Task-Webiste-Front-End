@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+
+}
+main.main-section{
+    background-image: url(./assets/images/header-bg.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 1000px;
+}
+li{
+    font-size: 30px;
+    padding: 10px; list-style-type:none; text-transform: capitalize;
+}
+li a{
+    text-decoration: none; color: white;
+}
+.below-navbar{
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+}
+.below-navbar p{
+    font-size: 45px;
+}
+.below-navbar p#kill-caption{
+    font-size: 55px;
+    font-weight: 900;
+}
+.catogories{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.fast-foods,.Trending,.Special-deals{
+    border: 2px solid white;
+    border-radius: 20px;
+}
